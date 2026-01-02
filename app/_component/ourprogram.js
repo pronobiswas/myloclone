@@ -43,7 +43,6 @@ export default function Ourprogram() {
                         start: "top 80%", 
                         end: "+=700",
                         scrub: true,
-                        markers: true, 
                     }
                 });
 

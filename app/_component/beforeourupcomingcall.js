@@ -79,7 +79,7 @@ const Beforeourupcomingcall = () => {
     }, []);
     return (
         <>
-            <section ref={sectionRef} className='w-full h-fit'>
+            <section ref={sectionRef} className='w-full h-fit px-5'>
                 <div className='w-full h-fit flex items-center justify-center'>
                     {/* ===card wrapper=== */}
                     <div
@@ -96,15 +96,15 @@ const Beforeourupcomingcall = () => {
                         <div className='w-full h-fit max-w-7xl flex flex-col gap-y-12 lg:gap-y-32'>
                             {/* ====card content==== */}
                             <div
-                                className='review-card flex flex-col md:flex-row gap-5 bg-emerald-400/50 p-5 rounded-3xl border border-emerald-400'>
+                                className='review-card flex flex-col md:flex-row gap-8 bg-emerald-400/50 p-8 rounded-3xl border border-emerald-400'>
                                 {/* --desc-- */}
                                 <div className='w-full max-w-xl text-center lg:text-left'>
 
                                     <h4 className='w-full lg:w-fit text-xl text-emerald-400 border border-emerald-400 px-5 py-2 rounded-2xl bg-emerald-950'>Krissa Tewari</h4>
 
-                                    <h3 className='pt-5 pb-2 text-2xl font-semibold'><span className='text-emerald-400'>$5,000</span> in One Month</h3>
+                                    <h3 className='pt-5 pb-2 text-2xl font-semibold text-white'><span className='text-emerald-400'>$5,000</span> in One Month</h3>
 
-                                    <p className='text-neutral-400'>Krissa is an 18-year-old full-time university student who was also working long hours as a tutor. After joining Easy Etsy, she generated $5,000 in a single month, allowing her to free up more time to focus on her studies. She now enjoys greater balance and the ability to live life on her own terms.</p>
+                                    <p className='text-neutral-300'>Krissa is an 18-year-old full-time university student who was also working long hours as a tutor. After joining Easy Etsy, she generated $5,000 in a single month, allowing her to free up more time to focus on her studies. She now enjoys greater balance and the ability to live life on her own terms.</p>
                                 </div>
                                 {/* --video wrapper-- */}
                                 <div
@@ -124,7 +124,7 @@ const Beforeourupcomingcall = () => {
                             </div>
                             {/* =====card content 2====== */}
                             <div
-                                className='review-card flex flex-col md:flex-row gap-5 bg-emerald-400/50 p-5 rounded-3xl border border-emerald-400'>
+                                className='review-card flex flex-col md:flex-row gap-8 bg-emerald-400/50 p-8 rounded-3xl border border-emerald-400'>
                                 {/* --video wrapper-- */}
                                 <div
                                     className="w-full aspect-video rounded-3xl overflow-hidden order-2 lg:order-1 border border-emerald-400">
@@ -145,23 +145,23 @@ const Beforeourupcomingcall = () => {
 
                                     <h4 className='w-full lg:w-fit text-xl text-emerald-400 border border-emerald-400 px-5 py-2 rounded-2xl bg-emerald-950'>Geonu Paek</h4>
 
-                                    <h3 className='pt-5 pb-2 text-2xl font-semibold'><span className='text-emerald-400'>$7,780</span> in  His First Month</h3>
+                                    <h3 className='pt-5 pb-2 text-2xl font-semibold text-white'><span className='text-emerald-400'>$7,780</span> in  His First Month</h3>
 
-                                    <p className='text-neutral-400'>Before joining us, Geonu was working two jobs—one as a bartender until 4 a.m., and another starting at 6 a.m.—leaving him with almost no time to rest. Within his first month, he made $7,780 in just 16 days after his first sale. He has since drastically reduced his working hours, giving him the freedom to live life on his own terms.</p>
+                                    <p className='text-neutral-300'>Before joining us, Geonu was working two jobs—one as a bartender until 4 a.m., and another starting at 6 a.m.—leaving him with almost no time to rest. Within his first month, he made $7,780 in just 16 days after his first sale. He has since drastically reduced his working hours, giving him the freedom to live life on his own terms.</p>
                                 </div>
                             </div>
                             {/* =====card content 2====== */}
                             <div
-                                className='review-card flex flex-col md:flex-row gap-5 bg-emerald-400/50 p-5 rounded-3xl border border-emerald-400'>
+                                className='review-card flex flex-col md:flex-row gap-8 bg-emerald-400/50 p-8 rounded-3xl border border-emerald-400'>
 
                                 {/* --desc-- */}
                                 <div className='w-full max-w-xl text-center lg:text-left'>
 
                                     <h4 className='w-full lg:w-fit text-xl text-emerald-400 border border-emerald-400 px-5 py-2 rounded-2xl bg-emerald-950'>David Sokolow</h4>
 
-                                    <h3 className='pt-5 pb-2 text-2xl font-semibold'><span className='text-emerald-400'>$6,000</span> in  His First Month</h3>
+                                    <h3 className='pt-5 pb-2 text-2xl font-semibold text-white'><span className='text-emerald-400'>$6,000</span> in  His First Month</h3>
 
-                                    <p className='text-neutral-400'>David is a 17-year-old from Sydney, Australia. Before joining Easy Etsy, he was studying full-time in high school while juggling a part-time job. Despite having no prior experience in dropshipping, David generated $6,000 in his very first month—all while preparing for his HSC exams at the same time. After graduating, David has now decided to pursue online business full-time.</p>
+                                    <p className='text-neutral-300'>David is a 17-year-old from Sydney, Australia. Before joining Easy Etsy, he was studying full-time in high school while juggling a part-time job. Despite having no prior experience in dropshipping, David generated $6,000 in his very first month—all while preparing for his HSC exams at the same time. After graduating, David has now decided to pursue online business full-time.</p>
                                 </div>
                                 {/* --video wrapper-- */}
                                 <div

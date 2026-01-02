@@ -4,7 +4,7 @@ import React from 'react'
 const Formsection = () => {
     return (
         <>
-            <section id='section2' className='w-full h-fit bg-transparent py-8' >
+            <section id='section2' className='w-full h-fit bg-transparent py-8 px-5' >
                 <div className='w-full h-fit'>
                     {/* ===heading=== */}
                     <div className='text-white text-center pb-8 '>

@@ -71,13 +71,13 @@ export default function Banner() {
       {/* banner text  */}
       <div className='w-full max-w-5xl z-20 px-5'>
         <div className='w-fit mx-auto bg-emerald-700/30 px-5 py-2 border border-emerald-400 rounded-2xl'>
-          <p className="text-white text-sm md:text-base">
+          <p className="text-white text-xs md:text-base">
             <span className="text-emerald-400">$</span>99% client success rate within the first <span className="text-emerald-400">60 days</span>
           </p>
         </div>
         <h1 className='text-4xl md:text-5xl lg:text-6xl text-white font-semibold mt-8'>Replace your income and earn <br/> <span ref={typedTex} className='text-emerald-500'></span> Per by Dropshipping with TikTok Ads within the <br/> next 60 days</h1>
-        <h1 className='text-4xl md:text-5xl lg:text-6xl text-white mt-7 mb-5'>GUARANTEED</h1>
-        <p className="text-white">The Proven, Zero-Risk Method to Make $5–10k+/month Online — With Absolutely No Experience Needed.</p>
+        <h1 className='text-4xl md:text-5xl lg:text-6xl text-emerald-500 font-bold mt-7 mb-5'>GUARANTEED</h1>
+        <p className="text-white text-2xl md:text-3xl lg:text-4xl">The Proven, Zero-Risk Method to Make <strong>$5–10k+</strong>/month Online — With Absolutely No Experience Needed.</p>
       </div>
       {/* banner video */}
       <div className="w-full h-full min-h-80 max-w-[1600px] aspect-1660/728 py-10 rounded-3xl">
